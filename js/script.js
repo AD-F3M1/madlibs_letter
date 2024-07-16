@@ -18,6 +18,10 @@ $(document).ready(function() {
 
         $("#letter").show();
 
-        $()
+        $(".name").val("");
+        $(".date").val("");
+        $(".recipientName").val("");
+        $(".title").val("");
+        $(".address").val("");
     })
 })
