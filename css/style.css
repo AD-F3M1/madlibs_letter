@@ -1,0 +1,12 @@
+#letter {
+    display: none;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}

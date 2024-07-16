@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    $("#formone").submit(function(refresh) {
+    $("#formOne").submit(function(refresh) {
         
         refresh.preventDefault();
 
