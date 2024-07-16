@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>Birthday Letter Maker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formal letter template</h1>
+        <div>
+            <form id="formOne">
+                <div class="form-group">
+                    <input id="name" class="form-control" type="text" for="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input id="date" class="form-control" type="date" for="date" placeholder="Enter today's date">
+                </div>
+                <div class="form-group">
+                    <input id="recipientName" class="form-control" type="text" for="recipientName" placeholder="Enter recipient name">
+                </div>
+                <div class="form-group">
+                    <input id="title" class="form-control" type="text" for="title" placeholder="Enter the title of the letter">
+                </div>
+                <div class="form-group">
+                    <input id="address" class="form-control" type="text" for="address" placeholder="Enter the address of the recipient">
+                </div>
+        
+                <button type="submit" class="btn">View letter!</button>
+            </form>
+        </div>
+        <div id="letter">
+            <div>
+                <ul>
+                    <li class="name"></li>
+                    <li class="date"></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="recipientName"></li>
+                    <li class="address"></li>
+                </ul>
+            </div>
+
+            <h5>Dear Ma/Sir</h5>
+            <h1 class="title"></h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse odio minus cum necessitatibus. Quo error, quos consectetur unde reprehenderit atque! Ad accusantium explicabo illum reprehenderit, reiciendis tempore dolorem illo cupiditate?.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit minima qui accusamus, quod debitis non ratione ab earum eum pariatur distinctio possimus fuga dignissimos cupiditate autem aliquid mollitia sit numquam.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
