@@ -1,12 +1,11 @@
-Great! Here’s a draft for your README file:
-
----
-
 # Letter Template
 
 ## Overview
 
 **Letter Template** is a web application designed to help users create beautiful birthday letters to send to family and friends. This project provides a user-friendly interface with a nice background and a convenient screenshot button to capture the final letter design.
+
+## Contributor:
+Oluwafemi
 
 ## Features
 
@@ -27,11 +26,11 @@ Great! Here’s a draft for your README file:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/letter-template.git
+   git clone https://github.com/akitobioluwafemi/letter-template.git
    ```
 2. **Navigate to the Project Directory:**
    ```bash
-   cd letter-template
+   cd madlibs_letter
    ```
 3. **Open `index.html` in Your Browser:**
    ```bash
@@ -61,3 +60,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Feel free to modify any sections as needed. Let me know if you need any more details or have other questions!
+
+## Contact
+akitobioluwafemi.gmail
