@@ -32,6 +32,11 @@ body {
 
 #letter {
     display: none;
+    /* background-image: url(..//img/white-paper-texture-background.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
 }
 
 .margin {
@@ -91,4 +96,8 @@ ul {
 h5 {
     padding-left: 300px;
     padding-right: 300px;
+}
+
+.new_btn {
+    padding-left: 600px;
 }
