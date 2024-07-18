@@ -4,24 +4,40 @@ $(document).ready(function() {
         
         refresh.preventDefault();
 
-        const inputtedName = $("#name").val();
+        $(".btn").click(function() {
+            $("#letter").toggle();
+            $("#formOne").toggle();
+        })
+
+        const inputtedUserName = $("#userName").val();
+        const inputtedUserAddress = $("#userAddress").val();
+        const inputtedCity = $("#userCity").val();
+        const inputtedEmail = $("#email").val();
+        const inputtedPhoneNumber = $("#phoneNumber").val();
         const inputtedDate = $("#date").val();
         const inputtedRecipientName = $("#recipientName").val();
-        const inputtedTitle = $("#title").val();
-        const inputtedAddress = $("#address").val();
+        const inputtedRecipientAddress = $("#recipientAddress").val();
+        const inputtedRecipientEmail = $("#recipientEmail").val();
 
-        $(".name").text(inputtedName);
+        $(".userName").text(inputtedUserName);
+        $(".userAddress").text(inputtedUserAddress);
+        $(".userCity").text(inputtedCity);
+        $(".email").text(inputtedEmail);
+        $(".phoneNumber").text(inputtedPhoneNumber);
         $(".date").text(inputtedDate);
         $(".recipientName").text(inputtedRecipientName);
-        $(".title").text(inputtedTitle);
-        $(".address").text(inputtedAddress);
+        $(".recipientAddress").text(inputtedRecipientAddress);
+        $(".recipientEmail").text(inputtedRecipientEmail);
 
-        $("#letter").show();
-
-        $(".name").val("");
+        $(".userName").val("");
+        $(".userAddress").val("");
+        $(".userCity").val("");
+        $(".email").val("");
+        $(".phoneNumber").val("");
         $(".date").val("");
         $(".recipientName").val("");
-        $(".title").val("");
-        $(".address").val("");
+        $(".recipientAddress").val("");
+        $(".recipientEmail").val("");
+
     })
 })

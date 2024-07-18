@@ -1,12 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+.signature {
+    font-family: "Playwrite BE VLG";
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.title {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    margin-top: 5%;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    background: #f0f0f0;
+    background-image: url(bkg.gif);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 #letter {
     display: none;
 }
 
 .margin {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .center {
     align-items: center;
     text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.listStyle {
+    list-style: none;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: start;
+    text-align: left;
+}
+
+.flex-end2 {
+    display: block;
+    justify-content: end;
+    text-align: right;
+}
+
+.position-absolute {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+}
+
+p {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+ul {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+h5 {
+    padding-left: 300px;
+    padding-right: 300px;
 }

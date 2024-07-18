@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,54 +11,104 @@
     <script src="js/script.js"></script>
     <title>Birthday Letter Maker</title>
 </head>
+
 <body>
-    <div class="container margin center">
-        <h1>Formal Letter Template</h1>
-        <div>
-            <form id="formOne">
+    <div class="container margin position-absolute">
+        <h1 class="center title">Happy Birthday</h1>
+        <div class="flex justify-content-center h-10">
+            <form id="formOne" class="w-50 p-5">
                 <div class="form-group margin">
-                    <input id="name" class="form-control" type="text" for="name" placeholder="Enter your name">
+                    <input id="userName" class="form-control col-6" type="text" for="userName"
+                        placeholder="Enter your full name">
                 </div>
                 <div class="form-group margin">
-                    <input id="date" class="form-control" type="date" for="date" placeholder="Enter today's date">
+                    <input id="userAddress" class="form-control col-6" type="text" for="userAddress"
+                        placeholder="Enter your address">
                 </div>
                 <div class="form-group margin">
-                    <input id="recipientName" class="form-control" type="text" for="recipientName" placeholder="Enter recipient name">
+                    <input id="userCity" class="form-control col-6" type="text" for="userCity" placeholder="Enter your city">
                 </div>
                 <div class="form-group margin">
-                    <input id="title" class="form-control" type="text" for="title" placeholder="Enter the title of the letter">
+                    <input id="email" class="form-control col-6" type="email" for="email" placeholder="Enter your email">
                 </div>
                 <div class="form-group margin">
-                    <input id="address" class="form-control" type="text" for="address" placeholder="Enter the address of the recipient">
+                    <input id="phoneNumber" class="form-control col-6" type="tel" for="phoneNumber"
+                        placeholder="Enter your phone number">
                 </div>
-        
-                <button type="submit" class="btn">View letter!</button>
+                <div class="form-group margin">
+                    <input id="date" class="form-control col-6" type="date" for="date" placeholder="Enter today's date">
+                </div>
+                <div class="form-group margin">
+                    <input id="recipientName" class="form-control col-6" type="text" for="recipientName"
+                        placeholder="Enter the full name of the recipient">
+                </div>
+                <div class="form-group margin">
+                    <input id="recipientAddress" class="form-control col-6" type="text" for="recipientAddress"
+                        placeholder="Enter the address of the recipient">
+                </div>
+                <div class="form-group margin">
+                    <input id="recipientEmail" class="form-control col-6" type="email" for="recipientEmail"
+                        placeholder="Enter the email of the recipient">
+                </div>
+
+                <button type="submit" class="btn btn-success margin">View letter!</button>
             </form>
         </div>
         <div id="letter">
-            <div>
-                <ul>
-                    <li class="name"></li>
+
+            <div id="userDetails" class="flex-end margin">
+                <ul class="listStyle">
+                    <li class="userName"></li>
+                    <li class="userAddress"></li>
+                    <li class="userCity"></li>
+                    <li class="email"></li>
+                    <li class="phoneNumber"></li>
                     <li class="date"></li>
                 </ul>
             </div>
 
-            <div>
-                <ul>
+            <div id="recipientDetails" class="flex-start margin">
+                <ul class="listStyle">
                     <li class="recipientName"></li>
-                    <li class="address"></li>
+                    <li class="recipientAddress"></li>
+                    <li class="recipientEmail"></li>
                 </ul>
             </div>
 
-            <h5>Dear ma/sir</h5>
-            <h1 class="title"></h1>
+            <div class="flex margin">
+                <h5>Dear <span class="recipientName"></span>
+                </h5>
+            </div>
+
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse odio minus cum necessitatibus. Quo error, quos consectetur unde reprehenderit atque! Ad accusantium explicabo illum reprehenderit, reiciendis tempore dolorem illo cupiditate?.
+                I hope this letter finds you in good health and high spirits. I am writing to extend my heartfelt wishes
+                to you on your special day. Happy Birthday!
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit minima qui accusamus, quod debitis non ratione ab earum eum pariatur distinctio possimus fuga dignissimos cupiditate autem aliquid mollitia sit numquam.
+                As you celebrate this joyous occasion, I want to take a moment to acknowledge the incredible person you
+                are. Your dedication, kindness, and unwavering spirit have left a lasting impression on everyone who has
+                had the pleasure of knowing you. You have a unique way of bringing warmth and positivity to those around
+                you, and for that, we are all grateful.
             </p>
+            <p>
+                May this year be filled with new opportunities, success, and happiness. I hope you take time to reflect
+                on all your achievements and look forward to the wonderful possibilities that lie ahead. Your journey
+                thus far has been truly inspiring, and I am confident that the coming year will bring even greater
+                accomplishments.
+            </p>
+            <p>
+                Once again, happy birthday! May your day be as special and wonderful as you are. Please know that my
+                thoughts and best wishes are with you on this delightful occasion
+            </p>
+
+            <div id="salutation" class="flex-end2">
+                <p>
+                    Warm regards,
+                </p>
+                <p class="userName signature"></p>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
